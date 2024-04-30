@@ -1,0 +1,9 @@
+Upgrading device firmare and SDK to Ultrahaptics V3 made haptics work in unity, but also required a ultraleap sdk upgrade to gemini. Gemini and stratos sdks work individualy in unity, but there don't seems to be examples with both haptics and tracking
+
+Now that the firmware is updated on the stratos, haptics will only work with V3 demos, not with the old sensation editor. We're hoping we can brind in old sensations to the new sdk
+
+The device object auto aligns the leap desktop rig on start, but doesn't align the haptics to the hands
+
+To make points move with the hand: mod floor their global position, so they snap to a grids
+
+to save git log: git log --date=short --pretty=format:'"%h","%an","%ad","%s"' > log.csv

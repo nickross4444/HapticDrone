@@ -1,0 +1,123 @@
+Begin Object Class=/Script/Engine.Material Name="M_Laptop"
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionMultiply'"M_Laptop:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionMultiply'"M_Laptop:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=8
+      MaterialExpressionEditorY=611
+      MaterialExpressionGuid=014EE6FF445EE676EEA86AA1E25A6CE5
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_1"
+      A=(Expression=MaterialExpressionAppendVector'"M_Laptop:MaterialExpressionAppendVector_0"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Laptop:MaterialExpressionTextureSampleParameter2D_2"',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=144
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=014EE6FF445EE676EEA86AA1E25A6CE5
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Laptop:MaterialExpressionTextureSampleParameter2D_2"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionScalarParameter'"M_Laptop:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=B5A071F442D266C268455A90293AA410
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Laptop:MaterialExpressionTextureSampleParameter2D_2"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=MaterialExpressionScalarParameter'"M_Laptop:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=B5A071F442D266C268455A90293AA410
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="NormalAmmount"
+      ExpressionGUID=872A15B34E4AA4B5792E0880B477B4E5
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=F0DBB283494CC195957E979837381205
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Color"
+      ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=AAF0F8BE49856CF981425C97A9E7684F
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="OcculsionRoughnessMetal"
+      ExpressionGUID=69988FA74739165E37221EBDF4ACBA52
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=E5D414324770284E98443C92FA8F9F7C
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_2"
+      ParameterName="Normal"
+      ExpressionGUID=F32622E440C686D7EE542FA34598696D
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=FDE2BD3E47119A1510D5BC99765676F1
+      Material=Material'"M_Laptop"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=2,Mask=1,MaskG=1)
+   Normal=(Expression=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_1"')
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=1,Mask=1,MaskR=1)
+   bUsedWithStaticLighting=True
+   EditorX=144
+   EditorY=-32
+   Expressions(0)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(1)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(2)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_1"'
+   Expressions(3)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_2"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(6)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=E3A8FF5F48C1FF69313C3396033C2B91
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(8258683681609199564),ParameterInfos=((Name="NormalAmmount")),ExpressionGuids=(872A15B34E4AA4B5792E0880B477B4E5),Overrides=(False)),Entries[2]=(NameHashes=(4708953410708818575,5834991852379716168,12279385124011487613),ParameterInfos=((Name="Normal"),(Name="OcculsionRoughnessMetal"),(Name="Color")),ExpressionGuids=(F32622E440C686D7EE542FA34598696D,69988FA74739165E37221EBDF4ACBA52,EF5B734D4C52FDA80F9DFE9BCC32951B),Overrides=(False,False,False)),ScalarValues=(1.000000),TextureValues=(Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None),TextureChannelNameValues=((),(),())),ReferencedTextures=(Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=86A03FAD44663EFB93045D8897C1B168
+   ReferencedTextureGuids(1)=2200AF2340041B9B6FF7F596332B56F9
+   ReferencedTextureGuids(2)=B529D6E146FFA874A771B2AF98F02378
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Laptop_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Laptop_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Laptop_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=91E668CE479154FCE868F0B63B6CEA3D
+End Object

@@ -1,0 +1,189 @@
+Begin Object Class=/Script/Engine.Material Name="M_Glass"
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_1"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"M_Glass:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=9F95350E4AC8A6D006A8C99C3E5D4957
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_4"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_5"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"M_Glass:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=83B7CC594E65C8AABF3D9C88B1893987
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_6"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_7"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"M_Glass:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=B0D73DB443304DA2B26C2B9F34838857
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Fresnel_Function.Fresnel_Function"'
+      FunctionInputs(0)=(ExpressionInputId=35BEF4AB41753D388A755683266190FC,Input=(OutputIndex=-1,InputName="Normal Vector"))
+      FunctionInputs(1)=(ExpressionInputId=602CF93F4D5862AE7D44B9AFAE6928D1,Input=(OutputIndex=-1,InputName="Camera Vector"))
+      FunctionInputs(2)=(ExpressionInputId=C1DDB8394761ECBA18AAFA9FC8B6FDF4,Input=(OutputIndex=-1,InputName="Invert Fresnel"))
+      FunctionInputs(3)=(ExpressionInputId=D1BB60474A01A2C1FF76239030536DD6,Input=(Expression=MaterialExpressionScalarParameter'"M_Glass:MaterialExpressionScalarParameter_3"',InputName="Power"))
+      FunctionInputs(4)=(ExpressionInputId=5DF8894F4FF0173B79E6B2BE8CD4036A,Input=(OutputIndex=-1,InputName="Use Cheap contrast"))
+      FunctionInputs(5)=(ExpressionInputId=6B3E1E094AAE4B459EE37DB82522FEE1,Input=(OutputIndex=-1,InputName="Cheap contrast dark"))
+      FunctionInputs(6)=(ExpressionInputId=4FF6CF8944CC3B0DFF9720957A7239E7,Input=(OutputIndex=-1,InputName="Cheap contrast bright"))
+      FunctionInputs(7)=(ExpressionInputId=2A46423F488DF653B9E2AAA6FFAA8B07,Input=(OutputIndex=-1,InputName="Clamp Fresnel Dot Product"))
+      FunctionOutputs(0)=(ExpressionOutputId=4791466245EBCCB78FCD1F8826A758E7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=F90B88544D085835CA7F41963D9A4E03
+      Material=Material'"M_Glass"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.050000
+      ParameterName="Reflection Front"
+      ExpressionGUID=21D7CA0844ED63F8A5EA45A0857E8817
+      MaterialExpressionEditorX=-496
+      MaterialExpressionGuid=B6CFC9794E63996B0FC4F6A8FABECAB1
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.050000
+      ParameterName="Reflection Front"
+      ExpressionGUID=65A98B054DC4009505D3DB823CE0AD9A
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=D263230A4E8ED550ADC6CDA27CDA203F
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      ParameterName="Roughness"
+      ExpressionGUID=066FA8574E775D4FDC4E84919F93C09A
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=6185BF0B4F6ACCC9BFE03FAA6EF901F1
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      ParameterName="Power"
+      ExpressionGUID=171397F4495DE52D591F9D98280EFE87
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=270DC7AD4FADD40F0A0EF7ACF0576D85
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=0.005000
+      ParameterName="Opacity Front"
+      ExpressionGUID=377FC98342189A3DD307F097F4E0F6F4
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=BAD5BE124319BA87FFF44A8698959C42
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=0.200000
+      ParameterName="Opacity Side"
+      ExpressionGUID=46AC30874CA2FAF8E6DFD09EC102FCC1
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=9A37A0434794F2CB1A9CDD86B5151835
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=1.200000
+      ParameterName="Refraction Front"
+      ExpressionGUID=05B5030F473C7F398F48EDA5C6F469D7
+      MaterialExpressionEditorX=-495
+      MaterialExpressionEditorY=505
+      MaterialExpressionGuid=4811DF3748AE722C8BE576B271B05244
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=0.800000
+      ParameterName="Refraction Side"
+      ExpressionGUID=513BAC9045A6BDD560C038A467290DAF
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=CB2367924301D5D41E66C8AF461A610D
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.815000,G=1.000000,B=1.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=0FE4B459489EA3D46E29E1993C4FA875
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=6C9ADFAB441ADEF98B1C46880DC7C96A
+      Material=Material'"M_Glass"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   Opacity=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"')
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithStaticLighting=True
+   bUsesDistortion=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(5)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(9)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(10)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_6"'
+   Expressions(11)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_7"'
+   Expressions(12)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   ParameterGroupData(5)=(GroupName="None")
+   ParameterGroupData(6)=(GroupName="None")
+   ParameterGroupData(7)=(GroupName="None")
+   ParameterGroupData(8)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=1B147B794B960F90E0E37B8B678E0E07
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(421517594726703552,440574345582452634,5547136702653166745,6697921891272598077,7412201735253395773,8373881615859872484,15674804456393136154),ParameterInfos=((Name="Opacity Side"),(Name="Roughness"),(Name="Refraction Front"),(Name="Opacity Front"),(Name="Reflection Front"),(Name="Power"),(Name="Refraction Side")),ExpressionGuids=(46AC30874CA2FAF8E6DFD09EC102FCC1,066FA8574E775D4FDC4E84919F93C09A,05B5030F473C7F398F48EDA5C6F469D7,377FC98342189A3DD307F097F4E0F6F4,21D7CA0844ED63F8A5EA45A0857E8817,171397F4495DE52D591F9D98280EFE87,513BAC9045A6BDD560C038A467290DAF),Overrides=(False,False,False,False,False,False,False)),Entries[1]=(NameHashes=(12279385124011487613),ParameterInfos=((Name="Color")),ExpressionGuids=(0FE4B459489EA3D46E29E1993C4FA875),Overrides=(False)),ScalarValues=(0.200000,0.000000,1.200000,0.005000,0.050000,0.000000,0.800000),VectorValues=((R=0.815000,G=1.000000,B=1.000000,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None,None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),FunctionInfos=((StateId=72C547B3457AA083E55C2994C3F1418D,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Fresnel_Function.Fresnel_Function"')),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=475D05C041201E68F4C25E9289737875
+End Object

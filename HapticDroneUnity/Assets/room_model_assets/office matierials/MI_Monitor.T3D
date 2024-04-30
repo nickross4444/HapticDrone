@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Monitor"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=33DBEF2A4AA52DD564E10B99B0976ED5
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Laptop.M_Laptop"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Monitor_BC.T_Monitor_BC"',ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Monitor_N.T_Monitor_N"',ExpressionGUID=F32622E440C686D7EE542FA34598696D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="OcculsionRoughnessMetal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Monitor_ORM.T_Monitor_ORM"',ExpressionGUID=69988FA74739165E37221EBDF4ACBA52)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=F556E1B94EA2286FE04D0CA23154C31E
+   ReferencedTextureGuids(1)=24881BF94D9F6F10167EF2BB970391ED
+   ReferencedTextureGuids(2)=E9E8ACD04C3F636C68CEA5B15E493523
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Monitor_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_Monitor_BC.T_Monitor_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Monitor_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Monitor_N.T_Monitor_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Monitor_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_Monitor_ORM.T_Monitor_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A22BD0824892A972DB43179943AECCAE
+End Object

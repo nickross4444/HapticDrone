@@ -1,0 +1,55 @@
+Begin Object Class=/Script/Engine.Material Name="M_Encyclopedia"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_BC.T_Encyclopedia_BC"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=7258A8A44F308ED4CF277FBEEF96B400
+      Material=Material'"M_Encyclopedia"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_N.T_Encyclopedia_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-350
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=4627EC1F4F9C8B2AB2FABDA52AB36E0E
+      Material=Material'"M_Encyclopedia"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_ORM.T_Encyclopedia_ORM"'
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=1EE5F7064C4D3A08562CE8930BA185C2
+      Material=Material'"M_Encyclopedia"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=E316D1C14775B30E262895B1FA16FA26
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_BC.T_Encyclopedia_BC"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_N.T_Encyclopedia_N"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Encyclopedia_ORM.T_Encyclopedia_ORM"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=256106AC4EF4596591042DB9310B6EA2
+   ReferencedTextureGuids(1)=3136C2484B6A90A45F4FBB832B887FB3
+   ReferencedTextureGuids(2)=53BC87A240FD60AA2CDA08B4893AB43A
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Encyclopedia_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_Encyclopedia_BC.T_Encyclopedia_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Encyclopedia_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Encyclopedia_N.T_Encyclopedia_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Encyclopedia_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_Encyclopedia_ORM.T_Encyclopedia_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=5EFCD9D84193848BF510298385012940
+End Object

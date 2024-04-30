@@ -1,0 +1,14 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_WindowGlass"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=5DE7CD804D71C8DAF83E7087BD188F75
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Glass.M_Glass"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Refraction Front"),ParameterValue=1.200000,ExpressionGUID=05B5030F473C7F398F48EDA5C6F469D7)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Refraction Side"),ParameterValue=1.000000,ExpressionGUID=513BAC9045A6BDD560C038A467290DAF)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=D432F58349C27648DBA8D6B04ED9741F
+End Object

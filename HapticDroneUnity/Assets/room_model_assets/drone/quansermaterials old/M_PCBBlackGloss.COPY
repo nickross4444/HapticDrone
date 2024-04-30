@@ -1,0 +1,33 @@
+Begin Object Class=/Script/Engine.Material Name="M_PCBBlackGloss"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.100000
+      MaterialExpressionEditorX=-178
+      MaterialExpressionEditorY=217
+      MaterialExpressionGuid=BD3AF886418949CA339E4CA2F92F3503
+      Material=Material'"M_PCBBlackGloss"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      MaterialExpressionEditorX=-224
+      MaterialExpressionGuid=EE933F6C4457C314D04780AEECE40B19
+      Material=Material'"M_PCBBlackGloss"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=4388AAF443D2ADE0DAC8218DDA129A5E
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2917D1A94894A0A206C3158D8214B3CD
+End Object

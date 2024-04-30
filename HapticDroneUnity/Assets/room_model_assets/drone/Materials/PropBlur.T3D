@@ -1,0 +1,42 @@
+Begin Object Class=/Script/Engine.Material Name="PropBlur"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.300000
+      MaterialExpressionEditorX=-210
+      MaterialExpressionEditorY=270
+      MaterialExpressionGuid=0A530615410CEDC163854BA24602B6B8
+      Material=Material'"PropBlur"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=AEA48F604715C55F498768BF4D5BD748
+      Material=Material'"PropBlur"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=AFBC3B114C4CD59A9103D895FF6B2CC8
+      Material=Material'"PropBlur"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_4"')
+   Opacity=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   BlendMode=BLEND_Translucent
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=59351D2F43D3D4FB0EC3FFBFCE6EC0A0
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=D61B0860421864A51F0F8890E26D7414
+End Object

@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_BirdsNestPlant"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=63F71E3543AD3263EE928C928B506DB5
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Laptop.M_Laptop"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_BC.T_BirdsNestPlant_BC"',ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_N.T_BirdsNestPlant_N"',ExpressionGUID=F32622E440C686D7EE542FA34598696D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="OcculsionRoughnessMetal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_ORM.T_BirdsNestPlant_ORM"',ExpressionGUID=69988FA74739165E37221EBDF4ACBA52)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=0D8FBCF54062B1CFEE77F7B2394C6B10
+   ReferencedTextureGuids(1)=1198142F48C8EEA87A2A18AB3CAC3F3C
+   ReferencedTextureGuids(2)=869A3B09482D7EA553CAA68BDAF55880
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_BirdsNestPlant_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_BC.T_BirdsNestPlant_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_BirdsNestPlant_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_N.T_BirdsNestPlant_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_BirdsNestPlant_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_BirdsNestPlant_ORM.T_BirdsNestPlant_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=15066CE8440FCE9C9BAFF6A8C8AAECEC
+End Object

@@ -1,0 +1,31 @@
+Begin Object Class=/Script/Engine.Material Name="BlackMotor"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.100000
+      MaterialExpressionEditorX=-120
+      MaterialExpressionEditorY=157
+      MaterialExpressionGuid=C67EEFB24BD298CE7713DBA6EA468397
+      Material=Material'"BlackMotor"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=AFBC3B114C4CD59A9103D895FF6B2CC8
+      Material=Material'"BlackMotor"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=ADD05DFD4C885C8C27F605AAA9372038
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=81A4EB76473F1DBD252B0CB831535395
+End Object

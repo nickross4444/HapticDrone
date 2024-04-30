@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.Material Name="Steel_-_Galvanized__Small_"
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      ExpressionGUID=8FF9BE014F183B187BBCD2A66CB786ED
+      MaterialExpressionGuid=7CB290594D0FBD7E5BF0AEA77DF780D7
+      Material=Material'"Steel_-_Galvanized__Small_"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=2AC478354D76C45ADF8915B89500A743
+   CachedExpressionData=(Parameters=(Entries[1]=(NameHashes=(10371715421228879687),ParameterInfos=((Name="Param")),ExpressionGuids=(8FF9BE014F183B187BBCD2A66CB786ED),Overrides=(False)),VectorValues=((R=0.000000,G=0.000000,B=0.000000,A=0.000000)),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9C779AEC46EFA3E0B9E38C9C74F8637C
+End Object

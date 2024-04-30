@@ -1,0 +1,42 @@
+Begin Object Class=/Script/Engine.Material Name="M_ABSBlackGloss"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      MaterialExpressionEditorX=-113
+      MaterialExpressionEditorY=106
+      MaterialExpressionGuid=64F5060F4F1C7692DEEE2E8ABA44603E
+      Material=Material'"M_ABSBlackGloss"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=-151
+      MaterialExpressionEditorY=238
+      MaterialExpressionGuid=C4DD2A2F44D1C0839BF82A8BEDA3DDAA
+      Material=Material'"M_ABSBlackGloss"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=FB90921B4D22891F582854A6FAFDDACB
+      Material=Material'"M_ABSBlackGloss"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"')
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_5"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_6"')
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=3317FCD3451FEB8F393A8C8ABFE2133C
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=47E2C7A74DF0CA76093C85BAD48D1717
+End Object

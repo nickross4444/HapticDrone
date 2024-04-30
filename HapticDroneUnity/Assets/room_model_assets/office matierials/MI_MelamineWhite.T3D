@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_MelamineWhite"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=E3E602064055363AA1C325820769FF1E
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Melamine.M_Melamine"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="color"),ParameterValue=(R=0.305152,G=0.317708,B=0.286268,A=1.000000),ExpressionGUID=7D08FAA446D2E2358CE3628A2F110964)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=8BE877854E7F2D043B4300A898A6F076
+   ReferencedTextureGuids(1)=558252884F7A11E696D1AC8EE59D6D7B
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Melamine_R.T_Melamine_R"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Melamine_N.T_Melamine_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=12.000000,UVChannelIndex=0,TextureName="T_Melamine_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Melamine_N.T_Melamine_N)
+   TextureStreamingData(1)=(SamplingScale=12.000000,UVChannelIndex=0,TextureName="T_Melamine_R",TextureReference=/Game/Assets/OfficeScene/Textures/T_Melamine_R.T_Melamine_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=944AF80047F57AB1A427B29790591A46
+End Object

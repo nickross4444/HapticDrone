@@ -1,0 +1,31 @@
+Begin Object Class=/Script/Engine.Material Name="Battery"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.300000
+      MaterialExpressionEditorX=-107
+      MaterialExpressionEditorY=177
+      MaterialExpressionGuid=F30B703B49A0DA9FD37C8B8041B08329
+      Material=Material'"Battery"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=AFBC3B114C4CD59A9103D895FF6B2CC8
+      Material=Material'"Battery"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_1"')
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=478F06C24481D2283D48D68590FF466E
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=EEC580734EF2A5D421041392DF6BBDE4
+End Object

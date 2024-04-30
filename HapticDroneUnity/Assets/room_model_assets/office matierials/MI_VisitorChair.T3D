@@ -1,0 +1,26 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_VisitorChair"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=03CAE79C4284A0E045962AA4414FE253
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Laptop.M_Laptop"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="NormalAmmount"),ParameterValue=0.500000,ExpressionGUID=872A15B34E4AA4B5792E0880B477B4E5)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_VisitorChair_BC.T_VisitorChair_BC"',ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_VisitorChair_N.T_VisitorChair_N"',ExpressionGUID=F32622E440C686D7EE542FA34598696D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="OcculsionRoughnessMetal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_VisitorChair_ORM.T_VisitorChair_ORM"',ExpressionGUID=69988FA74739165E37221EBDF4ACBA52)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=7AC2F9654E2C13A5F53B1DBE040D5CDD
+   ReferencedTextureGuids(1)=DC6422874F9A4FD130D8488AC30A97CF
+   ReferencedTextureGuids(2)=62F37C3D4E3D643BD05169921B299905
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_VisitorChair_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_VisitorChair_BC.T_VisitorChair_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_VisitorChair_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_VisitorChair_N.T_VisitorChair_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_VisitorChair_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_VisitorChair_ORM.T_VisitorChair_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2048251C41711A1F2448A190DEA855FA
+End Object

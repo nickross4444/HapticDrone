@@ -1,0 +1,27 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_CarbonFiber"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=362B2B214CE105D1BFDD8E94B50FDA8B
+   Parent=Material'"/Game/Assets/Private/QuanserMaterials/Old/M_CarbonFiber.M_CarbonFiber"'
+   bHasStaticPermutationResource=True
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Fiber Scale"),ParameterValue=1.000000,ExpressionGUID=64999FA54958F340C3A347AC7E40C4D8)
+   ScalarParameterValues(1)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Fiber Strength"),ParameterValue=0.500000,ExpressionGUID=DBBD6C6F4147BAF15AC92C81D0A2C93D)
+   ScalarParameterValues(2)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Rotation"),ExpressionGUID=AFD22D034FD815E9992688A018525664)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   BasePropertyOverrides=(ShadingModel=MSM_ClearCoat,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=FEE1653747098FA9CFD580AA3BAF3077
+   ReferencedTextureGuids(1)=03954BF84110AE08DC7455976955B39A
+   StaticParameters=(StaticSwitchParameters=((ParameterInfo=(Name="Scale-Aware Tiling"),bOverride=True,ExpressionGUID=B7F17F664448A52169D5A7B5C5030475),(ParameterInfo=(Name="World Aligned"),bOverride=True,ExpressionGUID=D6EF106E415214ADB3D339B3226E7CC0)))
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_N.T_CarbonFiber_Twill_N"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R"'
+   CachedReferencedTextures(2)=None
+   CachedReferencedTextures(3)=Texture2D'"/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse"'
+   CachedReferencedTextures(4)=Texture2D'"/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap"'
+   CachedReferencedTextures(5)=Texture2D'"/Engine/EngineMaterials/DefaultNormal_Uncompressed.DefaultNormal_Uncompressed"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_CarbonFiber_Twill_R",TextureReference=/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=079D67D54BD70855E6A4B799335C1B2E
+End Object

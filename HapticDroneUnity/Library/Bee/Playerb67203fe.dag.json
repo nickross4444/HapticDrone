@@ -1,0 +1,3206 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/boot.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/boot.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/boot.config"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers"
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers.assets"
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/level0",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level0"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/level0"
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/level0.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level0.resS"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/level0.resS"
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/resources.assets"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/resources.assets.resS"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets.resS"
+      ],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/RuntimeInitializeOnLoads.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/RuntimeInitializeOnLoads.json"
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/ScriptingAssemblies.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/ScriptingAssemblies.json"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity_builtin_extra",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity_builtin_extra"
+      ],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/UnityServicesProjectConfiguration.json"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/CircleSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/CircleSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/CircleSensation.py"
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/DialSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/DialSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/DialSensation.py"
+      ],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/ExpandingCircleSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/ExpandingCircleSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/ExpandingCircleSensation.py"
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/FingerPatch.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/FingerPatch.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/FingerPatch.py"
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Forcefield.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/Forcefield.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Forcefield.py"
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/HandScan.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/HandScan.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/HandScan.py"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityModulation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/IntensityModulation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityModulation.py"
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityWave.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/IntensityWave.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityWave.py"
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Inverse.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/Inverse.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Inverse.py"
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LineSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/LineSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LineSensation.py"
+      ],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LissajousSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/LissajousSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LissajousSensation.py"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmPresence.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/PalmPresence.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmPresence.py"
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedCircle.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/PalmTrackedCircle.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedCircle.py"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedDial.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/PalmTrackedDial.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedDial.py"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedPulsingCircle.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/PalmTrackedPulsingCircle.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedPulsingCircle.py"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PointPair.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/PointPair.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PointPair.py"
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Polyline6.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/Polyline6.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Polyline6.py"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/pysensationcore.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/pysensationcore.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/pysensationcore.py"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/QuadToQuadIntersection.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/QuadToQuadIntersection.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/QuadToQuadIntersection.py"
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Scan.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/Scan.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Scan.py"
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/sensation_helpers.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/sensation_helpers.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/sensation_helpers.py"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TriangleWave.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/TriangleWave.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TriangleWave.py"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TwoHandedSensation.py",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/TwoHandedSensation.py"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TwoHandedSensation.py"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/CircleSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/CircleSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/CircleSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/DialSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/DialSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/DialSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/ExpandingCircleSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/ExpandingCircleSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/ExpandingCircleSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/FingerPatch.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/FingerPatch.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/FingerPatch.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Forcefield.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/Forcefield.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Forcefield.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/HandScan.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/HandScan.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/HandScan.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityModulation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/IntensityModulation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityModulation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityWave.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/IntensityWave.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityWave.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Inverse.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/Inverse.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Inverse.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LineSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/LineSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LineSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LissajousSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/LissajousSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LissajousSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmPresence.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/PalmPresence.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmPresence.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedCircle.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/PalmTrackedCircle.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedCircle.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedDial.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/PalmTrackedDial.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedDial.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedPulsingCircle.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/PalmTrackedPulsingCircle.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedPulsingCircle.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PointPair.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/PointPair.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PointPair.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Polyline6.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/Polyline6.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Polyline6.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/pysensationcore.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/pysensationcore.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/pysensationcore.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/QuadToQuadIntersection.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/QuadToQuadIntersection.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/QuadToQuadIntersection.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Scan.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/Scan.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Scan.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/sensation_helpers.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/sensation_helpers.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/sensation_helpers.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TriangleWave.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/TriangleWave.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TriangleWave.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TwoHandedSensation.cpython-36.pyc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Python/__pycache__/TwoHandedSensation.cpython-36.pyc"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TwoHandedSensation.cpython-36.pyc"
+      ],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PackageCache/com.ultraleap.tracking@6.4.0/OpenXR/Runtime/Plugins/x64/UltraleapOpenXRUnity.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll"
+      ],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/LeapC.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PackageCache/com.ultraleap.tracking@6.4.0/Core/Runtime/Plugins/x86_64/LeapC.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/LeapC.dll"
+      ],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp-firstpass.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Assembly-CSharp-firstpass.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp-firstpass.dll"
+      ],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Assembly-CSharp.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/LeapMotion.LeapCSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/LeapMotion.LeapCSharp.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/LeapMotion.LeapCSharp.dll"
+      ],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Mono.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Mono.Security.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Mono.Security.dll"
+      ],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/mscorlib.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/mscorlib.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/mscorlib.dll"
+      ],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/netstandard.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/netstandard.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/netstandard.dll"
+      ],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Newtonsoft.Json.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Newtonsoft.Json.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Newtonsoft.Json.dll"
+      ],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Serilog.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.dll"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Async.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Serilog.Sinks.Async.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Async.dll"
+      ],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Console.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Serilog.Sinks.Console.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Console.dll"
+      ],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.File.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Serilog.Sinks.File.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.File.dll"
+      ],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Buffers.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Buffers.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Buffers.dll"
+      ],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.Concurrent.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Collections.Concurrent.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.Concurrent.dll"
+      ],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Collections.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.dll"
+      ],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.NonGeneric.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Collections.NonGeneric.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.NonGeneric.dll"
+      ],
+      "DebugActionIndex": 76
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ComponentModel.Composition.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.ComponentModel.Composition.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ComponentModel.Composition.dll"
+      ],
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Configuration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Configuration.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Configuration.dll"
+      ],
+      "DebugActionIndex": 78
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Console.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Console.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Console.dll"
+      ],
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Core.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Core.dll"
+      ],
+      "DebugActionIndex": 80
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.DataSetExtensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Data.DataSetExtensions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.DataSetExtensions.dll"
+      ],
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Data.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.dll"
+      ],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Diagnostics.Debug.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Diagnostics.Debug.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Diagnostics.Debug.dll"
+      ],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.dll"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Drawing.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Drawing.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Drawing.dll"
+      ],
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.EnterpriseServices.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.EnterpriseServices.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.EnterpriseServices.dll"
+      ],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Globalization.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Globalization.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Globalization.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.IO.Compression.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.dll"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.IO.Compression.FileSystem.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.FileSystem.dll"
+      ],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.IO.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.dll"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.IO.FileSystem.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.Primitives.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.IO.FileSystem.Primitives.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.Primitives.dll"
+      ],
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Linq.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Linq.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Linq.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Net.Http.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Net.Http.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Net.Http.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Numerics.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.dll"
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.Vectors.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Numerics.Vectors.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.Vectors.dll"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Reflection.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.dll"
+      ],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.Extensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Reflection.Extensions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.Extensions.dll"
+      ],
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Runtime.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Extensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Runtime.Extensions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Extensions.dll"
+      ],
+      "DebugActionIndex": 100
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Serialization.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Serialization.dll"
+      ],
+      "DebugActionIndex": 101
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Security.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Security.dll"
+      ],
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ServiceModel.Internals.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.ServiceModel.Internals.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ServiceModel.Internals.dll"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Text.Encoding.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.dll"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.Extensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Text.Encoding.Extensions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.Extensions.dll"
+      ],
+      "DebugActionIndex": 105
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.RegularExpressions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Text.RegularExpressions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.RegularExpressions.dll"
+      ],
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Threading.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.dll"
+      ],
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Tasks.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Threading.Tasks.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Tasks.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Timer.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Threading.Timer.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Timer.dll"
+      ],
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Transactions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Transactions.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Transactions.dll"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Xml.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.dll"
+      ],
+      "DebugActionIndex": 111
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.Linq.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/System.Xml.Linq.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.Linq.dll"
+      ],
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Ultraleap.Tracking.Core.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Core.dll"
+      ],
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Hands.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Ultraleap.Tracking.Hands.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Hands.dll"
+      ],
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.InteractionEngine.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Ultraleap.Tracking.InteractionEngine.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.InteractionEngine.dll"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UltraleapHaptics.NET.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UltraleapHaptics.NET.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UltraleapHaptics.NET.dll"
+      ],
+      "DebugActionIndex": 116
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Analytics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Analytics.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Analytics.dll"
+      ],
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Configuration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Configuration.dll"
+      ],
+      "DebugActionIndex": 118
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Device.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Device.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Device.dll"
+      ],
+      "DebugActionIndex": 119
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.dll"
+      ],
+      "DebugActionIndex": 120
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.dll"
+      ],
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.Internal.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
+      ],
+      "DebugActionIndex": 122
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Internal.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Internal.dll"
+      ],
+      "DebugActionIndex": 123
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Networking.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Networking.dll"
+      ],
+      "DebugActionIndex": 124
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Registration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Registration.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Registration.dll"
+      ],
+      "DebugActionIndex": 125
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Scheduler.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Scheduler.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Scheduler.dll"
+      ],
+      "DebugActionIndex": 126
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Telemetry.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Telemetry.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Telemetry.dll"
+      ],
+      "DebugActionIndex": 127
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Threading.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Threading.dll"
+      ],
+      "DebugActionIndex": 128
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.TextMeshPro.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "DebugActionIndex": 129
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Timeline.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Timeline.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Timeline.dll"
+      ],
+      "DebugActionIndex": 130
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "DebugActionIndex": 131
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Core.dll"
+      ],
+      "DebugActionIndex": 132
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Flow.dll"
+      ],
+      "DebugActionIndex": 133
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.State.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "DebugActionIndex": 134
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "DebugActionIndex": 135
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AIModule.dll"
+      ],
+      "DebugActionIndex": 136
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "DebugActionIndex": 137
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AnimationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "DebugActionIndex": 138
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ARModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ARModule.dll"
+      ],
+      "DebugActionIndex": 139
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 140
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "DebugActionIndex": 141
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClothModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "DebugActionIndex": 142
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "DebugActionIndex": 143
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "DebugActionIndex": 144
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CoreModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "DebugActionIndex": 145
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "DebugActionIndex": 146
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DirectorModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "DebugActionIndex": 147
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.dll"
+      ],
+      "DebugActionIndex": 148
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "DebugActionIndex": 149
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "DebugActionIndex": 150
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GIModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GIModule.dll"
+      ],
+      "DebugActionIndex": 151
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GridModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GridModule.dll"
+      ],
+      "DebugActionIndex": 152
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "DebugActionIndex": 153
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "DebugActionIndex": 154
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "DebugActionIndex": 155
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "DebugActionIndex": 156
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputModule.dll"
+      ],
+      "DebugActionIndex": 157
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "DebugActionIndex": 158
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "DebugActionIndex": 159
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "DebugActionIndex": 160
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "DebugActionIndex": 161
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "DebugActionIndex": 162
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "DebugActionIndex": 163
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "DebugActionIndex": 164
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "DebugActionIndex": 165
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "DebugActionIndex": 166
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "DebugActionIndex": 167
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "DebugActionIndex": 168
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "DebugActionIndex": 169
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "DebugActionIndex": 170
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.StreamingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "DebugActionIndex": 171
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "DebugActionIndex": 172
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "DebugActionIndex": 173
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "DebugActionIndex": 174
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "DebugActionIndex": 175
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "DebugActionIndex": 176
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "DebugActionIndex": 177
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "DebugActionIndex": 178
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TilemapModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "DebugActionIndex": 179
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TLSModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "DebugActionIndex": 180
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "DebugActionIndex": 181
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "DebugActionIndex": 182
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+      ],
+      "DebugActionIndex": 183
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIModule.dll"
+      ],
+      "DebugActionIndex": 184
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UmbraModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "DebugActionIndex": 185
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UNETModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UNETModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UNETModule.dll"
+      ],
+      "DebugActionIndex": 186
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "DebugActionIndex": 187
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "DebugActionIndex": 188
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "DebugActionIndex": 189
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "DebugActionIndex": 190
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 191
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "DebugActionIndex": 192
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "DebugActionIndex": 193
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "DebugActionIndex": 194
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "DebugActionIndex": 195
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "DebugActionIndex": 196
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VFXModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "DebugActionIndex": 197
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VideoModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "DebugActionIndex": 198
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "DebugActionIndex": 199
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VRModule.dll"
+      ],
+      "DebugActionIndex": 200
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.WindModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.WindModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.WindModule.dll"
+      ],
+      "DebugActionIndex": 201
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.XRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "DebugActionIndex": 202
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "DefaultCompany\nHapticDroneUnity",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 203
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/app.info",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/app.info"
+      ],
+      "ToBuildDependencies": [
+        203
+      ],
+      "DebugActionIndex": 204
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity default resources",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity default resources"
+      ],
+      "DebugActionIndex": 205
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/HapticDroneUnity.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/WindowsPlayer.exe"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/HapticDroneUnity.exe"
+      ],
+      "DebugActionIndex": 206
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/UnityCrashHandler64.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/UnityCrashHandler64.exe"
+      ],
+      "DebugActionIndex": 207
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/UnityPlayer.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/UnityPlayer.dll"
+      ],
+      "DebugActionIndex": 208
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "DebugActionIndex": 209
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "DebugActionIndex": 210
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/browscap.ini",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "DebugActionIndex": 211
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/config"
+      ],
+      "DebugActionIndex": 212
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 213
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "DebugActionIndex": 214
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "DebugActionIndex": 215
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "DebugActionIndex": 216
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 217
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 218
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "DebugActionIndex": 219
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "DebugActionIndex": 220
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "DebugActionIndex": 221
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 222
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 223
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "DebugActionIndex": 224
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "DebugActionIndex": 225
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "DebugActionIndex": 226
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 227
+    },
+    {
+      "Annotation": "CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "Outputs": [
+        "D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "DebugActionIndex": 228
+    },
+    {
+      "Annotation": "Player",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 229
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/Playerb67203fe-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+    },
+    {
+      "File": "D:/hapticdrone/Build/GameAssembly.dll"
+    },
+    {
+      "File": "D:/hapticdrone/Build/HapticDroneUnity.sln"
+    },
+    {
+      "File": "D:/hapticdrone/Build/UnityCommon.props"
+    },
+    {
+      "File": "Library/Bee/Playerb67203fe-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.ultraleap.tracking@6.4.0/Core/Runtime/Plugins/x86_64/LeapC.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.ultraleap.tracking@6.4.0/OpenXR/Runtime/Plugins/x64/UltraleapOpenXRUnity.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "Assets/StreamingAssets",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Tools/BuildPipeline"
+    },
+    {
+      "Path": "Library/PlayerDataCache/Win64/Data",
+      "Recurse": 1
+    },
+    {
+      "Path": "Temp/StagingArea/Data/Managed"
+    },
+    {
+      "Path": "Temp/StagingArea/Data/Plugins"
+    },
+    {
+      "Path": "Temp/StagingArea/Data/UnitySubsystems",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".xml",
+    ".txt",
+    ".config"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "Player": 229
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/Playerb67203fe.dag.json",
+  "RelativePathToRoot": "../.."
+}

@@ -1,0 +1,110 @@
+Begin Object Class=/Script/Engine.Material Name="M_Rubber"
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Rubber:MaterialExpressionScalarParameter_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_Rubber:MaterialExpressionScalarParameter_1"')
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=1948DC4B4841D9B353662A9DC8814C01
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.010417,G=0.010417,B=0.010417,A=0.000000)
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=8164C58F43535D067F4BBB83340D5689
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_Rubber:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionAppendVector'"M_Rubber:MaterialExpressionAppendVector_0"')
+      MaterialExpressionEditorX=-1088
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=2DF74AB5499080459F7108B4B127D8DE
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="HorizontalTile"
+      ExpressionGUID=04E8C8234B878593E42FD382345352AA
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=576
+      MaterialExpressionGuid=F6303DC547886C1DF9B4B482ED54D169
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="VericalTile"
+      ExpressionGUID=73C5E335474B74AF91ADCAAB737BB730
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=E1346AB54FD0D15D4235B8942D4388A0
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-1312
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=4551FF664AF1A1AD0192CC932D5F5CE9
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Rubber:MaterialExpressionMultiply_0"')
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Rubber_N.T_Rubber_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=4083A806457812EA0193459EE021028D
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Rubber:MaterialExpressionMultiply_0"')
+      Texture=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Rubber_R.T_Rubber_R"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=AA405C9E4C8BF68E8E6F94A916816166
+      Material=Material'"M_Rubber"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"')
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(3)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(5)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=22294E5E4124B0E467AC4FBCEC0D5321
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(764911285780636368,17439237073359947403),ParameterInfos=((Name="HorizontalTile"),(Name="VericalTile")),ExpressionGuids=(04E8C8234B878593E42FD382345352AA,73C5E335474B74AF91ADCAAB737BB730),Overrides=(False,False)),ScalarValues=(1.000000,1.000000),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None)),ReferencedTextures=(Texture2D'"/Game/Assets/OfficeScene/Textures/T_Rubber_N.T_Rubber_N"',Texture2D'"/Game/Assets/OfficeScene/Textures/T_Rubber_R.T_Rubber_R"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=158219124A9E493ABFEBC6BE8B6A82F1
+   ReferencedTextureGuids(1)=2763DEAC4F93DDE002C2AC91457C53CA
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Rubber_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Rubber_N.T_Rubber_N)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Rubber_R",TextureReference=/Game/Assets/OfficeScene/Textures/T_Rubber_R.T_Rubber_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12None", True))
+   LightingGuid=852F1524465FEABADBEFE5891E50E56E
+End Object

@@ -1,0 +1,45 @@
+Begin Object Class=/Script/Engine.Material Name="M_AnodizeRed"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_7"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_10"
+      R=1.000000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=C97EFDA64EFC8DDA98632C8429B2C096
+      Material=Material'"M_AnodizeRed"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_11"
+      R=0.200000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=C97EFDA64EFC8DDA98632C8429B2C096
+      Material=Material'"M_AnodizeRed"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_7"
+      Constant=(R=0.619792,G=0.000000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=26BA2BE6445CF21C810F6D89C57DD3FD
+      Material=Material'"M_AnodizeRed"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_7"')
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_10"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_11"')
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_7"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_10"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_11"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=0841E2634F023256FE8C54BDD72C9F8D
+   CachedExpressionData=(QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=1E032FC34076B9E1DA72FEAD2D667883
+End Object

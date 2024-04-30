@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aeecdbd94104748bd17822de486fb3, type: 3}
+  m_Name: CustomCircleScan
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: -0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  frequency: 80
+  scanFrequency: 1
+  minRadius: 0.01
+  maxRadius: 0.05
+  defaultRadius: 0.02
+  lockPos: {x: -0.0041822935, y: 0.070927486, z: -0.006439656}
+  scanning: 1
+  scanStyle: 0
+  scanDirection: 1

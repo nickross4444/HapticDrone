@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_DeskLamp"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=12888933409C1B6830FABC9DFF141ACC
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Laptop.M_Laptop"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_DeskLamp_BC.T_DeskLamp_BC"',ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_DeskLamp_N.T_DeskLamp_N"',ExpressionGUID=F32622E440C686D7EE542FA34598696D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="OcculsionRoughnessMetal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_DeskLamp_ORM.T_DeskLamp_ORM"',ExpressionGUID=69988FA74739165E37221EBDF4ACBA52)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=675CCC814C905C1163ED8E93BA14EC1C
+   ReferencedTextureGuids(1)=53F33001477665D0BF90738F2DC8655C
+   ReferencedTextureGuids(2)=1CC7368E4B18FB4D0A94BEAF9BD49FBF
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_DeskLamp_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_DeskLamp_BC.T_DeskLamp_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_DeskLamp_N",TextureReference=/Game/Assets/OfficeScene/Textures/T_DeskLamp_N.T_DeskLamp_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_DeskLamp_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_DeskLamp_ORM.T_DeskLamp_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=BB2826B94C2410D99EB56A93C81775D7
+End Object

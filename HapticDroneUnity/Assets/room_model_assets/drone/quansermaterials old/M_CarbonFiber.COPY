@@ -1,0 +1,614 @@
+Begin Object Class=/Script/Engine.Material Name="M_CarbonFiber"
+   Begin Object Class=/Script/Engine.MaterialExpressionClearCoatNormalCustomOutput Name="MaterialExpressionClearCoatNormalCustomOutput_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_39"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionObjectRadius Name="MaterialExpressionObjectRadius_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_48"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObjectParameter Name="MaterialExpressionTextureObjectParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObjectParameter Name="MaterialExpressionTextureObjectParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_8"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionClearCoatNormalCustomOutput_9"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_CarbonFiber:MaterialExpressionLinearInterpolate_3"')
+      MaterialExpressionEditorX=126
+      MaterialExpressionEditorY=910
+      MaterialExpressionGuid=292B9D87407474B0B29D8F833FD54232
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=2272
+      SizeY=1056
+      Text="ClearCoat Bottom Normal"
+      CommentColor=(R=0.728736,G=0.597507,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-1888
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=EE3EE842439D6DE1224A4595A6FC85BE
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=1664
+      SizeY=752
+      Text="Roughness"
+      CommentColor=(R=0.716636,G=0.829852,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-2000
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=0DAEE27E4E9CADA14BEB5D86648EB97A
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_10"
+      A=(Expression=MaterialExpressionObjectRadius'"M_CarbonFiber:MaterialExpressionObjectRadius_10"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_24"')
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=6FF2DB1743AA5D635E7B428D924E51D4
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_3"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_4"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"M_CarbonFiber:MaterialExpressionMaterialFunctionCall_10"')
+      MaterialExpressionEditorX=-493
+      MaterialExpressionEditorY=-507
+      MaterialExpressionGuid=DB86D707401AFE924357FC8B315A5A98
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionVertexNormalWS'"M_CarbonFiber:MaterialExpressionVertexNormalWS_7"')
+      B=(Expression=MaterialExpressionStaticSwitch'"M_CarbonFiber:MaterialExpressionStaticSwitch_3"')
+      Alpha=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_6"')
+      MaterialExpressionEditorX=-226
+      MaterialExpressionEditorY=910
+      MaterialExpressionGuid=5608FF4B48FCFEB5C93AEB93821D6A78
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.WorldAlignedTexture"'
+      FunctionInputs(0)=(ExpressionInputId=4EE64DD049AC714D089AD6AAB1BFA0C8,Input=(Expression=MaterialExpressionTextureObjectParameter'"M_CarbonFiber:MaterialExpressionTextureObjectParameter_1"',InputName="TextureObject"))
+      FunctionInputs(1)=(ExpressionInputId=2C710AD6489D7B7213E379AD4846EBBB,Input=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_25"',InputName="TextureSize"))
+      FunctionInputs(2)=(ExpressionInputId=F9CEA7574004FF6704D0C5B341DB8F50,Input=(OutputIndex=-1,InputName="WorldPosition"))
+      FunctionInputs(3)=(ExpressionInputId=041C58BB4D6D46D766DE40A41673ECD6,Input=(OutputIndex=-1,InputName="Export Float 4"))
+      FunctionInputs(4)=(ExpressionInputId=ABB498D643904DF08C37A0B911766DDB,Input=(OutputIndex=-1,InputName="World Space Normal"))
+      FunctionInputs(5)=(ExpressionInputId=D2134BC94ED09D2F619E9DBED3E550CD,Input=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_29"',InputName="ProjectionTransitionContrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=C73948F34CBC303FB1D8F3A99E6B0324,Output=(OutputName="XY Texture"))
+      FunctionOutputs(1)=(ExpressionOutputId=DC35E13448C6765AA54072B08874BFD4,Output=(OutputName="Z Texture"))
+      FunctionOutputs(2)=(ExpressionOutputId=1B6AC1E04D115FD30866E4A895261285,Output=(OutputName="XYZ Texture"))
+      MaterialExpressionEditorX=-1629
+      MaterialExpressionEditorY=-603
+      MaterialExpressionGuid=B0E9C5C34227F6F51442BB8CFB985CAD
+      Material=Material'"M_CarbonFiber"'
+      Outputs(0)=(OutputName="XY Texture")
+      Outputs(1)=(OutputName="Z Texture")
+      Outputs(2)=(OutputName="XYZ Texture")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_10"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components"'
+      FunctionInputs(0)=(ExpressionInputId=0FC5C56B4335798F20CB928CF1C87421,Input=(Expression=MaterialExpressionStaticSwitch'"M_CarbonFiber:MaterialExpressionStaticSwitch_26"',InputName="Float3"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BC893C247FCFC567178CE944E213385,Output=(OutputName="R"))
+      FunctionOutputs(1)=(ExpressionOutputId=9720C81E449DF8E5514FCB8A80FD5FA3,Output=(OutputName="G"))
+      FunctionOutputs(2)=(ExpressionOutputId=17CE6E2C4E70841B48F3D1B73828AA03,Output=(OutputName="B"))
+      MaterialExpressionEditorX=-973
+      MaterialExpressionEditorY=-491
+      MaterialExpressionGuid=A4EF31CA4CD0277A64C8E5B19987FFD9
+      Material=Material'"M_CarbonFiber"'
+      Outputs(0)=(OutputName="R")
+      Outputs(1)=(OutputName="G")
+      Outputs(2)=(OutputName="B")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_19"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'
+      FunctionInputs(0)=(ExpressionInputId=45DE7CC04BCC975C664A2AA5DA134FEF,Input=(Expression=MaterialExpressionMultiply'"M_CarbonFiber:MaterialExpressionMultiply_4"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9B6953874136DCE4D8E4E8878152CCCE,Input=(OutputIndex=-1,InputName="Rotation Center"))
+      FunctionInputs(2)=(ExpressionInputId=D58F67D84CFD4C9D289810AEE4A3EBC8,Input=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_23"',InputName="Rotation Angle (0-1)"))
+      FunctionOutputs(0)=(ExpressionOutputId=35E8F8F94CC8CE3D65F114A234D0BD5E,Output=(OutputName="Rotated Values"))
+      MaterialExpressionEditorX=-2064
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=EA9AE3B6421574C854E11C80A9C9720E
+      Material=Material'"M_CarbonFiber"'
+      Outputs(0)=(OutputName="Rotated Values")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_39"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/WorldAlignedTextures_Complex.WorldAlignedTextures_Complex"'
+      FunctionInputs(0)=(ExpressionInputId=4EE64DD049AC714D089AD6AAB1BFA0C8,Input=(OutputIndex=-1,InputName="Diffuse Texture Object"))
+      FunctionInputs(1)=(ExpressionInputId=9B5145F0482818F16B4B33AA0CE12BCC,Input=(OutputIndex=-1,InputName="Spec Texture Object"))
+      FunctionInputs(2)=(ExpressionInputId=2C710AD6489D7B7213E379AD4846EBBB,Input=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_28"',InputName="TextureSize"))
+      FunctionInputs(3)=(ExpressionInputId=9D0504AD4AB53FF60B1EB3B1C11CDFAD,Input=(OutputIndex=-1,InputName="--------------------------"))
+      FunctionInputs(4)=(ExpressionInputId=CC7EA20A4BBCB5AEC62CC3A3DE9D5CFB,Input=(OutputIndex=-1,InputName="Use seperate settings for Z projection"))
+      FunctionInputs(5)=(ExpressionInputId=3AD427514DAB94F7529F66A41B068119,Input=(OutputIndex=-1,InputName="Use seperate texture for Z projection"))
+      FunctionInputs(6)=(ExpressionInputId=C25ACC1B448AE4327363679716F194C5,Input=(OutputIndex=-1,InputName="Texture Size Z projection"))
+      FunctionInputs(7)=(ExpressionInputId=1FE8E4CA492997F9288FC3BACD7292AB,Input=(OutputIndex=-1,InputName="Z Plane Diffuse Texture Object"))
+      FunctionInputs(8)=(ExpressionInputId=F164D49A4A6E547446875BADEB4894B2,Input=(OutputIndex=-1,InputName="Z Plane Spec Texture Object"))
+      FunctionInputs(9)=(ExpressionInputId=815FB2AF44D1A7D4D743A6A966EC8030,Input=(OutputIndex=-1,InputName="--------------------------      "))
+      FunctionInputs(10)=(ExpressionInputId=D2134BC94ED09D2F619E9DBED3E550CD,Input=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_33"',InputName="ProjectionTransitionContrast"))
+      FunctionInputs(11)=(ExpressionInputId=EEF106234A4017D1DDE5C7BEF65565BD,Input=(OutputIndex=-1,InputName="Use Texture Alpha Heightmap to Refine the Transistion"))
+      FunctionInputs(12)=(ExpressionInputId=C82200B7431B09DBF04AE28B0801F7E6,Input=(OutputIndex=-1,InputName="HeightLerpTransitionContrast"))
+      FunctionInputs(13)=(ExpressionInputId=7CB63A7749CFD0CA2FB2A0A0FD49FE07,Input=(OutputIndex=-1,InputName="PickTheDiffuseHeightChannel"))
+      FunctionInputs(14)=(ExpressionInputId=BFFCB4454E28F53FCB83F0ACCF4E09CA,Input=(OutputIndex=-1,InputName="TheDiffuseHeightChannel"))
+      FunctionInputs(15)=(ExpressionInputId=408CFBC7425CC07162D9E996141B1039,Input=(OutputIndex=-1,InputName="--------------------------       "))
+      FunctionInputs(16)=(ExpressionInputId=D5C1ABEC4D42F95D373E598D1CCBF61E,Input=(Expression=MaterialExpressionTextureObjectParameter'"M_CarbonFiber:MaterialExpressionTextureObjectParameter_0"',InputName="NormalTextureObject"))
+      FunctionInputs(17)=(ExpressionInputId=9644AA934E5BCE5F8814D1A389946534,Input=(Expression=MaterialExpressionStaticBool'"M_CarbonFiber:MaterialExpressionStaticBool_16"',InputName="World Space Normals"))
+      FunctionInputs(18)=(ExpressionInputId=675929B945874DF298EA50986E99EA65,Input=(OutputIndex=-1,InputName="--------------------------  "))
+      FunctionInputs(19)=(ExpressionInputId=041C58BB4D6D46D766DE40A41673ECD6,Input=(OutputIndex=-1,InputName="Export Float 4 Diffuse"))
+      FunctionInputs(20)=(ExpressionInputId=45088AAF42E31CA7348E83A00FB38D08,Input=(OutputIndex=-1,InputName="Export Float 4 Spec"))
+      FunctionInputs(21)=(ExpressionInputId=6E0BCBAD4750F7AE0EB21E918EF031BD,Input=(OutputIndex=-1,InputName="--------------------------     "))
+      FunctionInputs(22)=(ExpressionInputId=F9CEA7574004FF6704D0C5B341DB8F50,Input=(OutputIndex=-1,InputName="WorldPosition"))
+      FunctionInputs(23)=(ExpressionInputId=ABB498D643904DF08C37A0B911766DDB,Input=(OutputIndex=-1,InputName="World Space Normal"))
+      FunctionOutputs(0)=(ExpressionOutputId=1B6AC1E04D115FD30866E4A895261285,Output=(OutputName="XYZ Diffuse Texture"))
+      FunctionOutputs(1)=(ExpressionOutputId=C73948F34CBC303FB1D8F3A99E6B0324,Output=(OutputName="XY Diffuse Texture"))
+      FunctionOutputs(2)=(ExpressionOutputId=DC35E13448C6765AA54072B08874BFD4,Output=(OutputName="Z Diffuse Texture"))
+      FunctionOutputs(3)=(ExpressionOutputId=973D89AA4371E996C4D8F188B2F4BB85,Output=(OutputName="-------------------------- "))
+      FunctionOutputs(4)=(ExpressionOutputId=D186625A49AD1269EC3D67916B7BF4BE,Output=(OutputName="XYZ Spec"))
+      FunctionOutputs(5)=(ExpressionOutputId=2009FFFE416C9B899355778BFFF0E2A7,Output=(OutputName="XY Spec"))
+      FunctionOutputs(6)=(ExpressionOutputId=0839755D406B7CFC02AC5F9DEB694C94,Output=(OutputName="Z Spec"))
+      FunctionOutputs(7)=(ExpressionOutputId=D3F6EF6F4C3AF1553E04C0BB85797199,Output=(OutputName=" --------------------------"))
+      FunctionOutputs(8)=(ExpressionOutputId=70C13250410B403EDACB2BAD6617A1A8,Output=(OutputName="Normal XYZ Texture"))
+      FunctionOutputs(9)=(ExpressionOutputId=0B6CF3B648E45FEEF586EBBE8BEC96BB,Output=(OutputName="Normal XYZ Flat Top"))
+      FunctionOutputs(10)=(ExpressionOutputId=BA0EE38C467921E777589182309A0A4F,Output=(OutputName="Normal XY Texture"))
+      FunctionOutputs(11)=(ExpressionOutputId=EA3D56C1422A323CD28771BDA6F5EA35,Output=(OutputName="Normal Z Texture"))
+      FunctionOutputs(12)=(ExpressionOutputId=A472C445467E8C55291407B202473D0D,Output=(OutputName="  --------------------------"))
+      FunctionOutputs(13)=(ExpressionOutputId=5635293B48D054DDA06E2C8E414DFF29,Output=(OutputName="XYZ Mat Attributes - See Tooltip"))
+      FunctionOutputs(14)=(ExpressionOutputId=14ABB7584D0073C3EBF7DC98BFDBD34A,Output=(OutputName="XY Mat Attributes - See Tooltip"))
+      FunctionOutputs(15)=(ExpressionOutputId=3A730A8B49E318150426D0984A5B4F44,Output=(OutputName="Z Mat Attributes - See Tooltip"))
+      MaterialExpressionEditorX=-1456
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=6CE06B6B41199E45A4019EB4B1EF3AE8
+      Material=Material'"M_CarbonFiber"'
+      Outputs(0)=(OutputName="XYZ Diffuse Texture")
+      Outputs(1)=(OutputName="XY Diffuse Texture")
+      Outputs(2)=(OutputName="Z Diffuse Texture")
+      Outputs(3)=(OutputName="-------------------------- ")
+      Outputs(4)=(OutputName="XYZ Spec")
+      Outputs(5)=(OutputName="XY Spec")
+      Outputs(6)=(OutputName="Z Spec")
+      Outputs(7)=(OutputName=" --------------------------")
+      Outputs(8)=(OutputName="Normal XYZ Texture")
+      Outputs(9)=(OutputName="Normal XYZ Flat Top")
+      Outputs(10)=(OutputName="Normal XY Texture")
+      Outputs(11)=(OutputName="Normal Z Texture")
+      Outputs(12)=(OutputName="  --------------------------")
+      Outputs(13)=(OutputName="XYZ Mat Attributes - See Tooltip")
+      Outputs(14)=(OutputName="XY Mat Attributes - See Tooltip")
+      Outputs(15)=(OutputName="Z Mat Attributes - See Tooltip")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_CarbonFiber:MaterialExpressionTextureCoordinate_1"')
+      B=(Expression=MaterialExpressionStaticSwitch'"M_CarbonFiber:MaterialExpressionStaticSwitch_12"')
+      MaterialExpressionEditorX=-2208
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=F64410BA472FE70BB1E63FBA513B48A9
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionObjectRadius_10"
+      MaterialExpressionEditorX=-2880
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=7D62E6654A146EC7D4A715AF3DEE04F3
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      ParameterName="Clear Coat Roughness"
+      ExpressionGUID=37F1E04C47B7DCFAB236F3B7EF7B3F49
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=F1C898C74FD75DE0EF036B84A571A184
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      ParameterName="Metallic"
+      ExpressionGUID=60269CCF4D0FDA9EC3F0F895EF36E149
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=4F95BD29407B334DA26012833C510FC3
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=1.000000
+      ParameterName="Clear Coat"
+      ExpressionGUID=A24DF11D4C69BAFAEAE82D8C3E72B411
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=AB8BAC0F4FE71313CC711ABD582C518E
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_23"
+      ParameterName="Rotation"
+      ExpressionGUID=AFD22D034FD815E9992688A018525664
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-2352
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=948DCE5D431C75E9B6C897B626FD5218
+      Material=Material'"M_CarbonFiber"'
+      Desc="Orientation of the texture/pattern. 0 to 1 value is equivalent to 0 to 360 degrees. (For example, 0.25 is 90 degrees, 0.5 is 180 degrees. )"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_24"
+      DefaultValue=30.000000
+      ParameterName="Fiber Scale"
+      ExpressionGUID=64999FA54958F340C3A347AC7E40C4D8
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-2896
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=25D30FE74AD1E66DAFA4B893915A49A1
+      Material=Material'"M_CarbonFiber"'
+      Desc="Scale/Tiling for the fiber pattern of the material"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_25"
+      DefaultValue=30.000000
+      ParameterName="Fiber Scale"
+      ExpressionGUID=BBE07F544498443B4728A5BBE3A5F7F2
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-1952
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=25D30FE74AD1E66DAFA4B893915A49A1
+      Material=Material'"M_CarbonFiber"'
+      Desc="Scale/Tiling for the fiber pattern of the material"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_28"
+      DefaultValue=30.000000
+      ParameterName="Fiber Scale"
+      ExpressionGUID=972EAE01445BA7867D5A8FAEE7140902
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=25D30FE74AD1E66DAFA4B893915A49A1
+      Material=Material'"M_CarbonFiber"'
+      Desc="Scale/Tiling for the fiber pattern of material"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_29"
+      ParameterName="Transition"
+      ExpressionGUID=4380AC2C40E135E04D4B69B861AA56F8
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-1952
+      MaterialExpressionEditorY=-384
+      MaterialExpressionGuid=1D8E513A4F6D892A9AA417ACA9E2DA39
+      Material=Material'"M_CarbonFiber"'
+      Desc="Projection Transition Contrast"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.036697
+      ParameterName="Roughness Min"
+      ExpressionGUID=C2B64BFC481538B87AAA9E9C7EE94A25
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=E04B4E8C4FB3AB60241FF487E21C1824
+      Material=Material'"M_CarbonFiber"'
+      Desc="Minimum value of the Roughness"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_33"
+      ParameterName="Transition"
+      ExpressionGUID=FDC491CA48FD20CF45F03D9A461A226B
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=1184
+      MaterialExpressionGuid=1D8E513A4F6D892A9AA417ACA9E2DA39
+      Material=Material'"M_CarbonFiber"'
+      Desc="Projection Transition Contrast"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=2.290167
+      ParameterName="Roughness Max"
+      ExpressionGUID=4BF701F44E96B8FA1379909984BD583A
+      MaterialExpressionEditorX=-717
+      MaterialExpressionEditorY=-571
+      MaterialExpressionGuid=DD229B8E464D3D787473C2B6FFCA5D6C
+      Material=Material'"M_CarbonFiber"'
+      Desc="Maximum value of the Roughness"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_48"
+      DefaultValue=0.293031
+      ParameterName="Specular"
+      ExpressionGUID=9E8FFCBB49D7D5789FEBF197CDEAAB63
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=-208
+      MaterialExpressionGuid=8AF6D81C4F3721BBC457ACA0F15ABA3D
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Fiber Strength"
+      ExpressionGUID=DBBD6C6F4147BAF15AC92C81D0A2C93D
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=DC85CACF4E369C926257C4B31B4B9BB2
+      Material=Material'"M_CarbonFiber"'
+      Desc="This Value controls the strength of the fiber pattern normal. A higher Value will give a stronger normal and vice versa."
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=0.010000
+      ParameterName="Base Color"
+      ExpressionGUID=C04C4F9C4A5E09DB3762828A961154EC
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=73F72BDB419A6DE9879DA5AFF51A6AF2
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_16"
+      Value=True
+      MaterialExpressionEditorX=-1858
+      MaterialExpressionEditorY=1022
+      MaterialExpressionGuid=544BE6B3483AFA9E92CB25915092C2DD
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_12"
+      ParameterName="Scale-Aware Tiling"
+      ExpressionGUID=B7F17F664448A52169D5A7B5C5030475
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-2896
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=E7CAED8844DCE399CD841C84D91FE906
+      Material=Material'"M_CarbonFiber"'
+      Desc="This option will respect the scale of the object and will scale the material pattern to match objects with different scales/size. (Only works with UV mode)"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_26"
+      ParameterName="World Aligned"
+      ExpressionGUID=B922901D42B47CF9F6A24DA897697960
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-1357
+      MaterialExpressionEditorY=-219
+      MaterialExpressionGuid=E7CAED8844DCE399CD841C84D91FE906
+      Material=Material'"M_CarbonFiber"'
+      Desc="If the object has bad UV, turn this option on to use World Aligned textures and normals. (Recommend using this on the static objects only. If the object is animated, the texture will appear to swim when the object moves)"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_6"
+      ParameterName="World Aligned"
+      ExpressionGUID=D6EF106E415214ADB3D339B3226E7CC0
+      Group="Fiber Pattern (Normal Bottom)"
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=1264
+      MaterialExpressionGuid=E7CAED8844DCE399CD841C84D91FE906
+      Material=Material'"M_CarbonFiber"'
+      Desc="If the object has bad UV, turn this option on to use World Aligned textures and normals. (Recommend using this on the static objects only. If the object is animated, the texture will appear to swim when the object moves)"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_12"
+      A=(Expression=MaterialExpressionDivide'"M_CarbonFiber:MaterialExpressionDivide_10"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_CarbonFiber:MaterialExpressionScalarParameter_24"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"M_CarbonFiber:MaterialExpressionStaticBoolParameter_12"')
+      MaterialExpressionEditorX=-2384
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=6031BD964FC3A56D624B5A97BFD692D4
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_26"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_CarbonFiber:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=2)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"M_CarbonFiber:MaterialExpressionTextureSampleParameter2D_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"M_CarbonFiber:MaterialExpressionStaticBoolParameter_26"')
+      MaterialExpressionEditorX=-1149
+      MaterialExpressionEditorY=-491
+      MaterialExpressionGuid=6031BD964FC3A56D624B5A97BFD692D4
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_3"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_CarbonFiber:MaterialExpressionMaterialFunctionCall_39"',OutputIndex=8)
+      B=(Expression=MaterialExpressionTransform'"M_CarbonFiber:MaterialExpressionTransform_2"')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'"M_CarbonFiber:MaterialExpressionStaticBoolParameter_6"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=6031BD964FC3A56D624B5A97BFD692D4
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      MaterialExpressionEditorX=-2384
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=8CF3BEC948D125C59DB12EA727C00B5C
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureObjectParameter_0"
+      ParameterName="Fiber(Bottom Layer) Normal"
+      ExpressionGUID=D313827F42AC196E306278999ADB93B3
+      Texture=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_N.T_CarbonFiber_Twill_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=EF0F9E064321581CEAC8F381D721F18C
+      Material=Material'"M_CarbonFiber"'
+      Desc="Feeds normal texture with desired fiber pattern. "
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureObjectParameter_1"
+      ParameterName="Roughness"
+      ExpressionGUID=2C099E6F491ABAA3750877B20F9928B2
+      Texture=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R"'
+      MaterialExpressionEditorX=-1952
+      MaterialExpressionEditorY=-720
+      MaterialExpressionGuid=FE2A82C747DFD55DA80485845A0F1D3B
+      Material=Material'"M_CarbonFiber"'
+      Desc="Feeds roughness texture with desired fiber pattern. This should be aligned with fiber normal texture."
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Fiber(Bottom Layer) Normal"
+      ExpressionGUID=3A4D19834B30A343DBBF739319D23F16
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"M_CarbonFiber:MaterialExpressionMaterialFunctionCall_19"')
+      Texture=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_N.T_CarbonFiber_Twill_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=E66C862C48DC28C8A21FAD9B8C323894
+      Material=Material'"M_CarbonFiber"'
+      Desc="Feeds normal texture with desired fiber pattern. "
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_5"
+      ParameterName="Roughness"
+      ExpressionGUID=D2448C6F4794E841BCF88FB40E67D420
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"M_CarbonFiber:MaterialExpressionMaterialFunctionCall_19"')
+      Texture=Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R"'
+      MaterialExpressionEditorX=-1565
+      MaterialExpressionEditorY=-315
+      MaterialExpressionGuid=E66C862C48DC28C8A21FAD9B8C323894
+      Material=Material'"M_CarbonFiber"'
+      Desc="Feeds roughness texture with desired fiber pattern. This should be aligned with fiber normal texture."
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTransform_2"
+      Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_CarbonFiber:MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1008
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=9CAD5F904BF8BE8C25E8519EE18A210A
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_7"
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=C242C3AA4717255EB8E3E2B16DE9BD88
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_8"
+      MaterialExpressionEditorX=432
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=C242C3AA4717255EB8E3E2B16DE9BD88
+      Material=Material'"M_CarbonFiber"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"')
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"')
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_48"')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   Normal=(Expression=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_8"')
+   Opacity=(OutputIndex=1)
+   OpacityMask=(OutputIndex=1)
+   ShadingModel=MSM_ClearCoat
+   ShadingModels=(ShadingModelField=16)
+   ClearCoat=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   ClearCoatRoughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   bTangentSpaceNormal=False
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   EditorX=736
+   EditorY=-48
+   Expressions(0)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_48"'
+   Expressions(3)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(4)=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_8"'
+   Expressions(5)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(7)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_1"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_6"'
+   Expressions(9)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"'
+   Expressions(10)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(11)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(12)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_5"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(14)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(15)=MaterialExpressionClearCoatNormalCustomOutput'"MaterialExpressionClearCoatNormalCustomOutput_9"'
+   Expressions(16)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_24"'
+   Expressions(17)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_12"'
+   Expressions(18)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_12"'
+   Expressions(19)=MaterialExpressionDivide'"MaterialExpressionDivide_10"'
+   Expressions(20)=MaterialExpressionObjectRadius'"MaterialExpressionObjectRadius_10"'
+   Expressions(21)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_6"'
+   Expressions(22)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_3"'
+   Expressions(23)=MaterialExpressionStaticBoolParameter'"MaterialExpressionStaticBoolParameter_26"'
+   Expressions(24)=MaterialExpressionStaticSwitch'"MaterialExpressionStaticSwitch_26"'
+   Expressions(25)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_10"'
+   Expressions(26)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_23"'
+   Expressions(27)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_19"'
+   Expressions(28)=MaterialExpressionTextureObjectParameter'"MaterialExpressionTextureObjectParameter_0"'
+   Expressions(29)=MaterialExpressionTransform'"MaterialExpressionTransform_2"'
+   Expressions(30)=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_7"'
+   Expressions(31)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(32)=MaterialExpressionTextureObjectParameter'"MaterialExpressionTextureObjectParameter_1"'
+   Expressions(33)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_25"'
+   Expressions(34)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_28"'
+   Expressions(35)=MaterialExpressionStaticBool'"MaterialExpressionStaticBool_16"'
+   Expressions(36)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_29"'
+   Expressions(37)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_39"'
+   Expressions(38)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_33"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=AB2286CF45DC46ECD6D3B981FBAB6E60
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(331225324888612606,520322803608649966,1228335140032643618,2974692992478864671,3078550227877033723,3929274268584483569,4444732180862933116,8379128662173006019,9084637546237944364,12972712987081193658,17359669895670324675),ParameterInfos=((Name="Base Color"),(Name="Roughness Min"),(Name="Rotation"),(Name="Fiber Strength"),(Name="Metallic"),(Name="Specular"),(Name="Clear Coat"),(Name="Transition"),(Name="Clear Coat Roughness"),(Name="Fiber Scale"),(Name="Roughness Max")),ExpressionGuids=(C04C4F9C4A5E09DB3762828A961154EC,C2B64BFC481538B87AAA9E9C7EE94A25,AFD22D034FD815E9992688A018525664,DBBD6C6F4147BAF15AC92C81D0A2C93D,60269CCF4D0FDA9EC3F0F895EF36E149,9E8FFCBB49D7D5789FEBF197CDEAAB63,A24DF11D4C69BAFAEAE82D8C3E72B411,4380AC2C40E135E04D4B69B861AA56F8,37F1E04C47B7DCFAB236F3B7EF7B3F49,64999FA54958F340C3A347AC7E40C4D8,4BF701F44E96B8FA1379909984BD583A),Overrides=(False,False,False,False,False,False,False,False,False,False,False)),Entries[2]=(NameHashes=(440574345582452634,12988685458314768049),ParameterInfos=((Name="Roughness"),(Name="Fiber(Bottom Layer) Normal")),ExpressionGuids=(D2448C6F4794E841BCF88FB40E67D420,3A4D19834B30A343DBBF739319D23F16),Overrides=(False,False)),ScalarValues=(0.010000,0.036697,0.000000,0.500000,0.000000,0.293031,1.000000,0.000000,0.000000,30.000000,2.290167),TextureValues=(Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R"',Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_N.T_CarbonFiber_Twill_N"'),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=1.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None,None,None,None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None,None,None,None,None,None),TextureChannelNameValues=((),())),ReferencedTextures=(Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_N.T_CarbonFiber_Twill_N"',Texture2D'"/Game/Assets/Private/QuanserMaterials/Carbon_Fiber/T_CarbonFiber_Twill_R.T_CarbonFiber_Twill_R"',None,Texture2D'"/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse"',Texture2D'"/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap"',Texture2D'"/Engine/EngineMaterials/DefaultNormal_Uncompressed.DefaultNormal_Uncompressed"'),FunctionInfos=((StateId=5B938C50440B6892955AD79FCD1A8337,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components"'),(StateId=E572D701496E6D38CC53A5BDC450B0ED,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'),(StateId=BDC7AB9C418E30AC5815BFB01EF022E9,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.WorldAlignedTexture"'),(StateId=1F6C91CF49B7C4B2062A7C8CD6360537,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/WorldAlignedTextures_Complex.WorldAlignedTextures_Complex"')),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=FEE1653747098FA9CFD580AA3BAF3077
+   ReferencedTextureGuids(1)=03954BF84110AE08DC7455976955B39A
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=60BEAD7045D3BCAEF794EB874108B893
+End Object

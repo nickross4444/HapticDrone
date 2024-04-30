@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Mouse"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=CE4F910549A245E4695C8A95880E2683
+   Parent=Material'"/Game/Assets/OfficeScene/Materials/M_Laptop.M_Laptop"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Mouse_BC.T_Mouse_BC"',ExpressionGUID=EF5B734D4C52FDA80F9DFE9BCC32951B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Mouse__N.T_Mouse__N"',ExpressionGUID=F32622E440C686D7EE542FA34598696D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="OcculsionRoughnessMetal"),ParameterValue=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Mouse_ORM.T_Mouse_ORM"',ExpressionGUID=69988FA74739165E37221EBDF4ACBA52)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=C6D41C3649608D6D93DAF2AD4874990E
+   ReferencedTextureGuids(1)=7867336242F24BFE25D93F8F19A6BA99
+   ReferencedTextureGuids(2)=A1D278C045E6FCAF733C0CA929354D35
+   CachedReferencedTextures(0)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_BC.T_Laptop_BC"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_ORM.T_Laptop_ORM"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Assets/OfficeScene/Textures/T_Laptop_N.T_Laptop_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Mouse__N",TextureReference=/Game/Assets/OfficeScene/Textures/T_Mouse__N.T_Mouse__N)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Mouse_BC",TextureReference=/Game/Assets/OfficeScene/Textures/T_Mouse_BC.T_Mouse_BC)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Mouse_ORM",TextureReference=/Game/Assets/OfficeScene/Textures/T_Mouse_ORM.T_Mouse_ORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=4E97EB734C45AB854844839319EF1D37
+End Object

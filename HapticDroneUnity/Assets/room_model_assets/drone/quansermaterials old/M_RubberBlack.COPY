@@ -1,0 +1,45 @@
+Begin Object Class=/Script/Engine.Material Name="M_RubberBlack"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      MaterialExpressionEditorX=56
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=7D33D5764DC137CFCF74F482F62A1109
+      Material=Material'"M_RubberBlack"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_9"
+      R=1.000000
+      MaterialExpressionEditorX=69
+      MaterialExpressionEditorY=361
+      MaterialExpressionGuid=E47E1C114C6EBC7A8A17D6B434CBABDD
+      Material=Material'"M_RubberBlack"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      ExpressionGUID=D7B60B164D2265307D262EB8A50E66D9
+      MaterialExpressionGuid=3437CD17449DCECCC55336933162F5BB
+      Material=Material'"M_RubberBlack"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_8"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_9"')
+   bUsedWithSkeletalMesh=True
+   EditorX=256
+   EditorY=16
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_8"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_9"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=F35C8AB54972E4563C1017B8694EB926
+   CachedExpressionData=(Parameters=(Entries[1]=(NameHashes=(10371715421228879687),ParameterInfos=((Name="Param")),ExpressionGuids=(D7B60B164D2265307D262EB8A50E66D9),Overrides=(False)),VectorValues=((R=0.000000,G=0.000000,B=0.000000,A=0.000000)),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=12DD856047C19CEEBE10A1B70FCA46CA
+End Object

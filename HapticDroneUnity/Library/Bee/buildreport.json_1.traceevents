@@ -1,0 +1,554 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1689098925489073, "dur": 1120132, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098925490263, "dur": 71190, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098925561663, "dur": 89578, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098925651263, "dur": 279234, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098925930499, "dur": 668502, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098926599022, "dur": 10182, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098933143156, "dur": 857281, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098933143361, "dur": 27673, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098933171036, "dur": 811659, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098933982696, "dur": 17741, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098934000833, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689098933223661, "dur":679, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933224350, "dur":597, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689098933224992, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689098933225020, "dur":283, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689098933225318, "dur":574, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933225892, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952696, "dur":184, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952880, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952896, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952899, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952908, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952910, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952915, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952917, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952923, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952924, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952930, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952932, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952938, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952940, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952946, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952948, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952954, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952956, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952961, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952963, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952968, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952970, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952975, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952977, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952983, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933952991, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933953018, "dur":1019, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689098933226181, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933226181, "dur":6865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933233056, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689098933233176, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933233199, "dur":10185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689098933243384, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933243403, "dur":26966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933270370, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933270397, "dur":22647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933293044, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933293063, "dur":34949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933328013, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933328033, "dur":31178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933359212, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933359244, "dur":21641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933380885, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933380918, "dur":35660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933416579, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933416800, "dur":22893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933439694, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933439720, "dur":83341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933523062, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933523089, "dur":54318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933577408, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933577435, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933578171, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933578194, "dur":17773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Reflection.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933595967, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933595995, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933596748, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933596770, "dur":17681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.Primitives.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933614451, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933614469, "dur":16806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Globalization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933631276, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933631306, "dur":234216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689098933865523, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689098933865557, "dur":87134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933226409, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933226409, "dur":6700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933233110, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689098933233245, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933233262, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689098933233362, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933233376, "dur":24376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933257753, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933257784, "dur":96464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933354249, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933354279, "dur":21755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933376035, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933376067, "dur":22873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933398940, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933398965, "dur":58845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933457810, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933457840, "dur":70722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933528563, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933528580, "dur":16799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933545379, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933545405, "dur":1578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.Extensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933546984, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933547003, "dur":86413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933633417, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933633434, "dur":18668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Diagnostics.Debug.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933652102, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933652133, "dur":112489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933764623, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933764655, "dur":100980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/LeapMotion.LeapCSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689098933865635, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689098933865648, "dur":87059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933225842, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933225958, "dur":7089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933233056, "dur":11010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689098933244067, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933244081, "dur":23268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933267350, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933267374, "dur":27874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933295248, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933295294, "dur":39044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933334339, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933334359, "dur":21933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933356293, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933356316, "dur":36167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933392484, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933392514, "dur":22824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933415338, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933415370, "dur":21989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933437360, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933437390, "dur":40891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933478281, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933478310, "dur":17126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933495436, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933495456, "dur":24061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933519518, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933519540, "dur":89444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933608985, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933609017, "dur":31591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933640609, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933640639, "dur":156879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689098933797519, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933797566, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1689098933797681, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933797697, "dur":9541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689098933807239, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689098933807281, "dur":145412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933226910, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933226910, "dur":6152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933233062, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1689098933233187, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933233203, "dur":9325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1689098933242529, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933242545, "dur":42741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933285287, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933285315, "dur":21160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933306476, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933306504, "dur":40250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933346755, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933346791, "dur":34202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933380993, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933381011, "dur":90630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933471642, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933471666, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933472807, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933472831, "dur":48429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933521261, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933521288, "dur":221700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933742989, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933743023, "dur":209619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689098933952643, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689098933952669, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1689098933952669, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933226024, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933226024, "dur":7021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933233056, "dur":39998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1689098933273055, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933273089, "dur":57052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933330141, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933330171, "dur":20344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933350515, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933350546, "dur":22237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933372784, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933372817, "dur":24998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933397816, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933397847, "dur":23615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933421463, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933421491, "dur":34546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933456038, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933456071, "dur":58136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933514208, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933514241, "dur":56496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933570738, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933570769, "dur":18989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933589759, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933589789, "dur":72579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933662369, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933662398, "dur":103907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933766306, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933766323, "dur":8957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/LeapC.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775281, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775314, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775484, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775500, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TwoHandedSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775516, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775528, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/TriangleWave.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775540, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775550, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/sensation_helpers.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775562, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775572, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Scan.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775583, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775593, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/QuadToQuadIntersection.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775604, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775614, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/pysensationcore.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775625, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775636, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Polyline6.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775647, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775656, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PointPair.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775666, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775675, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedPulsingCircle.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775686, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775696, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedDial.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775707, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775717, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmTrackedCircle.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775729, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775740, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/PalmPresence.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775750, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775760, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LissajousSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775772, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775787, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/LineSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775798, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775808, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Inverse.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775818, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775827, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityWave.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775838, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775847, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/IntensityModulation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775859, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775868, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/HandScan.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775881, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775891, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/Forcefield.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775901, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775910, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/FingerPatch.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775921, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775931, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/ExpandingCircleSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775943, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775952, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/DialSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775962, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775972, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/__pycache__/CircleSensation.cpython-36.pyc" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775983, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933775993, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TwoHandedSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776004, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776013, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/TriangleWave.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776024, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776032, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/sensation_helpers.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776042, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776050, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Scan.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776060, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776069, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/QuadToQuadIntersection.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776079, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776088, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/pysensationcore.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776098, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776108, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Polyline6.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776117, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776126, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PointPair.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776135, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776144, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedPulsingCircle.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776154, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776163, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedDial.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776173, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776182, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmTrackedCircle.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776192, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776201, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/PalmPresence.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776210, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776219, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LissajousSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776232, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776240, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/LineSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776251, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776260, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Inverse.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776269, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776278, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityWave.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776288, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776296, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/IntensityModulation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776306, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776314, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/HandScan.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776324, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776333, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/Forcefield.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776345, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776354, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/FingerPatch.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776363, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776372, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/ExpandingCircleSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776382, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776391, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/DialSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776401, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776409, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/Python/CircleSensation.py" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776419, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776427, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776691, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776707, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1689098933776733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933777111, "dur":16998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1689098933794126, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1689098933794146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689098933794152, "dur":9501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1689098933803663, "dur":149030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933226142, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933226142, "dur":6938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933233080, "dur":8922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689098933242003, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933242026, "dur":43824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933285851, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933285868, "dur":41994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933327863, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933327892, "dur":37788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933365680, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933365701, "dur":33794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933399495, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933399517, "dur":25682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933425200, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933425232, "dur":22669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933447902, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933447927, "dur":76914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933524850, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933524880, "dur":17865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Timer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933542746, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933542773, "dur":17085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.RegularExpressions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933559859, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933559885, "dur":131178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933691064, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933691096, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.Concurrent.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933691879, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933691899, "dur":18342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933710242, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933710271, "dur":67050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689098933777321, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933777339, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689098933777356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933777360, "dur":23166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689098933800555, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689098933800607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933800614, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689098933801591, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689098933801612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933801617, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802244, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802264, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802914, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689098933802933, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1689098933803464, "dur":149228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933225732, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933225926, "dur":7114, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233056, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233058, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233120, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233123, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233141, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233285, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233300, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233395, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933233410, "dur":3402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1689098933236813, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933236858, "dur":22475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933259334, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933259368, "dur":30157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933289526, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933289557, "dur":117982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933407540, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933407573, "dur":23189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933430763, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933430782, "dur":126549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933557331, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933557358, "dur":156119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933713478, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933713507, "dur":152392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689098933865899, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689098933865913, "dur":86783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933226294, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933226295, "dur":6767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933233062, "dur":9940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1689098933243003, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933243065, "dur":42586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933285651, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933285668, "dur":32030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933317698, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933317727, "dur":47940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933365667, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933365698, "dur":43968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933409667, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933409699, "dur":98424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933508124, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933508148, "dur":124765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UltraleapHaptics.NET.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933632914, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933632952, "dur":234641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689098933867594, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689098933867614, "dur":85085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933226543, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933226543, "dur":6538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933233081, "dur":10841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1689098933243922, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933243944, "dur":35235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933279180, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933279221, "dur":67843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933347064, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933347082, "dur":23158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933370240, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933370273, "dur":24006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933394280, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933394309, "dur":24924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933419234, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933419265, "dur":43859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933463125, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933463151, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933463840, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933463861, "dur":43381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933507243, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933507273, "dur":1177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933508451, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933508468, "dur":82846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.InteractionEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933591315, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933591343, "dur":72773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933664117, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933664145, "dur":102000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933766145, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933766167, "dur":99352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689098933865520, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689098933865552, "dur":87143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933226643, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933226644, "dur":6404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233056, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233186, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233199, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233305, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233319, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233412, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933233424, "dur":35682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity.exe" }}
+,{ "pid":12345, "tid":10, "ts":1689098933269107, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933269131, "dur":23663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933292795, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933292826, "dur":20370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933313197, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933313223, "dur":20641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933333865, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933333914, "dur":22576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933356490, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933356509, "dur":47581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933404090, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933404107, "dur":26578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933430686, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933430718, "dur":39373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933470092, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933470110, "dur":31541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933501652, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933501683, "dur":26689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933528373, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933528402, "dur":17036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Threading.Tasks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933545439, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933545457, "dur":17181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Text.Encoding.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933562639, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933562666, "dur":17903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933580570, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933580596, "dur":19134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933599730, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933599756, "dur":17185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933616941, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933616969, "dur":31274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933648244, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933648265, "dur":36549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933684814, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933684845, "dur":18137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933702983, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933703015, "dur":95714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Console.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689098933798730, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933798756, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1689098933798801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933798808, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1689098933801823, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1689098933801861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933801865, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1689098933803215, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1689098933803301, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689098933803315, "dur":149381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933226762, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933226762, "dur":6317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933233080, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1689098933233357, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933233373, "dur":6689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933240063, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933240090, "dur":28071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933268161, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933268177, "dur":21678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933289855, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933289875, "dur":123488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933413364, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933413394, "dur":23233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933436628, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933436657, "dur":25100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933461767, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933461801, "dur":198773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933660575, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933660603, "dur":18228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Console.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933678832, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933678862, "dur":18023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.Collections.NonGeneric.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933696886, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933696915, "dur":51864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.File.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933748780, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933748811, "dur":164437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689098933913249, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689098933913272, "dur":39427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933226714, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933226714, "dur":6367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933233081, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1689098933233331, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933233344, "dur":2431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933235775, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933235802, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1689098933235931, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933235945, "dur":60997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933296942, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933296968, "dur":84880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933381849, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933381871, "dur":21995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933403867, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933403898, "dur":29811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933433710, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933433740, "dur":36262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933470003, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933470032, "dur":25104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933495136, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933495167, "dur":955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933496122, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933496141, "dur":22405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933518547, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933518575, "dur":79238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933597813, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933597834, "dur":16425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933614260, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933614298, "dur":90747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933705046, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933705073, "dur":22718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Serilog.Sinks.Async.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933727792, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933727823, "dur":37839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933765663, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933765692, "dur":102752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933868449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689098933868466, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/hapticdrone/Build/HapticDroneUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689098933868965, "dur":83732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689098933954887, "dur":1359, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1689098934000980, "dur": 735, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689098934000825, "dur": 911, "ph": "X", "name": "Write chrome-trace events", "args": {} },
